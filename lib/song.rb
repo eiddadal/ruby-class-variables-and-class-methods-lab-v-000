@@ -12,6 +12,7 @@ class Song
     @artist
     @genre
     @@count += 1 
+    @@genres
     
   end 
   
