@@ -1,5 +1,5 @@
 class Song 
-  @@count 
+  @@count= 0 
   
   def intialize 
     @@count +=1 
