@@ -36,7 +36,8 @@ class Song
   
   def self.artist_count
     artist_count= Hash.new(0)
-    @@artists
+    @@artists.each {|artist| artist[] += 1}
+    artist_count
   end 
   
 end 
