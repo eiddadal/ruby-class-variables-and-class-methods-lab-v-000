@@ -24,6 +24,8 @@ class Song
   
   def self.artists
     @@artists.each do ||
+      if 
+      end 
     end 
   end 
     
