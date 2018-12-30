@@ -23,8 +23,9 @@ class Song
   end 
   
   def self.artists
-    @@artists.each do ||
-      if 
+    @@artists.each do |"artist"|
+      if artist == artist 
+        
       end 
     end 
   end 
