@@ -31,7 +31,7 @@ class Song
   end 
   
   def self.genre_count
-    @@genre_count[:@genre.uniq]
+    @@genre_count[:@genre.uniq] = @genre.count
   end 
   
   def self.artist_count
