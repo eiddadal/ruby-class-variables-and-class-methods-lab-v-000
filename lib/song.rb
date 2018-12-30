@@ -8,6 +8,9 @@ class Song
   @@artists_count = {}
   
   def initialize 
+    @name 
+    @artist 
+    @genre
     @@count += 1 
     @@artists 
     @@genres
